@@ -26,6 +26,9 @@
     <Compile Include="TensorflowObjectDetection.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Interpreter Include="TensorflowObjectDetectionEnv\">
       <Id>TensorflowObjectDetectionEnv</Id>
       <Version>3.7</Version>
