@@ -24,6 +24,9 @@
   <ItemGroup>
     <Compile Include="object_detection_tutorial.py" />
     <Compile Include="TensorflowObjectDetection.py" />
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
